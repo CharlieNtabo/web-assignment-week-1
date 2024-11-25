@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(230, 255, 255);
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+h1 {
+    text-align: left;
+    font-family: "Oleo Script", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: rgb(102, 0, 204);
+    margin-left: 20px;
+    position: fixed;
+}
+
+main {
+    width: 650px;
+    margin: 20px auto 36px auto;
+}
+
+main ul {
+    list-style: none;
+}
+
+main li {
+    background-color: rgb(202, 224, 245);
+    border-radius: 6px;
+    padding: 15px;   
+    margin: 20px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+main h2 {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+main p {
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 24px;
+    color: rgb(77, 0, 102);
+    background-color: rgb(255, 255, 204);
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+footer a:hover, a:active {
+    background-color: rgb(221, 221, 71);
+}
